@@ -1,0 +1,282 @@
+/* CLARO — ajustes de tema
+   Objetivo: leitura confortável, foco visível e contraste AA/AAA nos dois temas. */
+
+:root {
+  --md-primary-fg-color: #1d4b5a;
+  --md-primary-fg-color--light: #2f6b7d;
+  --md-primary-fg-color--dark: #123542;
+  --md-primary-bg-color: #ffffff;
+  --md-accent-fg-color: #b4461a;
+  --claro-c: #1d6fa5;
+  --claro-l: #2e7d4f;
+  --claro-a: #8a4bb8;
+  --claro-r: #b4461a;
+  --claro-o: #a0661a;
+  --claro-surface: #f3f7f8;
+  --claro-border: #d5e1e5;
+}
+
+[data-md-color-scheme="default"] {
+  --md-typeset-a-color: #1a5e8f;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #123542;
+  --md-accent-fg-color: #ffb38a;
+  --md-typeset-a-color: #8fd3ea;
+  --md-default-bg-color: #14191c;
+  --claro-c: #7cc0ec;
+  --claro-l: #8fd8a8;
+  --claro-a: #d3a8f2;
+  --claro-r: #ffb38a;
+  --claro-o: #f2c27a;
+  --claro-surface: #1c2428;
+  --claro-border: #2c3a40;
+}
+
+/* Leitura: corpo um pouco maior e entrelinha generosa */
+.md-typeset {
+  font-size: 0.86rem;
+  line-height: 1.75;
+}
+.md-typeset p,
+.md-typeset li {
+  max-width: 72ch;
+}
+
+/* Foco sempre visível (WCAG 2.4.7 / 2.4.13) */
+:focus-visible {
+  outline: 3px solid var(--md-accent-fg-color) !important;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Sem animações para quem pediu menos movimento */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Hero da página inicial */
+.claro-hero {
+  padding: 1.6rem 0 0.4rem;
+}
+.claro-hero .claro-kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--md-default-fg-color--light);
+  margin: 0;
+}
+.claro-hero h1 {
+  font-size: 2.4rem;
+  font-weight: 800;
+  margin: 0.3rem 0 0.6rem;
+  color: var(--md-default-fg-color);
+  letter-spacing: -0.01em;
+}
+.claro-hero .claro-lede {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  max-width: 60ch;
+}
+
+/* Acrônimo: uma letra por princípio */
+.claro-acronym {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 0.6rem;
+  margin: 1.4rem 0;
+}
+@media (max-width: 44.9375em) {
+  .claro-acronym { grid-template-columns: 1fr; }
+}
+.md-typeset a.claro-letter {
+  display: block;
+  border: 1px solid var(--claro-border);
+  border-top: 5px solid var(--claro-tone, var(--md-primary-fg-color));
+  border-radius: 6px;
+  background: var(--claro-surface);
+  padding: 0.8rem 0.8rem 0.9rem;
+  color: var(--md-default-fg-color);
+  text-decoration: none;
+}
+.md-typeset a.claro-letter:hover {
+  border-color: var(--claro-tone);
+}
+.claro-letter .claro-big {
+  display: block;
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1;
+  color: var(--claro-tone);
+}
+.claro-letter .claro-name {
+  display: block;
+  font-weight: 700;
+  margin-top: 0.35rem;
+}
+.claro-letter .claro-desc {
+  display: block;
+  font-size: 0.72rem;
+  line-height: 1.45;
+  color: var(--md-default-fg-color--light);
+  margin-top: 0.25rem;
+}
+.tone-c { --claro-tone: var(--claro-c); }
+.tone-l { --claro-tone: var(--claro-l); }
+.tone-a { --claro-tone: var(--claro-a); }
+.tone-r { --claro-tone: var(--claro-r); }
+.tone-o { --claro-tone: var(--claro-o); }
+
+/* Números de destaque */
+.claro-stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.8rem;
+  margin: 1rem 0 1.2rem;
+}
+@media (max-width: 44.9375em) {
+  .claro-stats { grid-template-columns: 1fr; }
+}
+.claro-stat {
+  border-left: 4px solid var(--md-primary-fg-color--light);
+  background: var(--claro-surface);
+  padding: 0.7rem 0.9rem;
+  border-radius: 0 6px 6px 0;
+}
+.claro-stat strong {
+  display: block;
+  font-size: 1.7rem;
+  line-height: 1.1;
+  font-variant-numeric: tabular-nums;
+}
+.claro-stat span {
+  font-size: 0.75rem;
+  line-height: 1.45;
+  display: block;
+  margin-top: 0.3rem;
+}
+
+/* Selo de princípio no topo das páginas */
+.claro-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 700;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--claro-tone);
+}
+.claro-badge::before {
+  content: attr(data-letter);
+  display: inline-grid;
+  place-items: center;
+  width: 1.9rem;
+  height: 1.9rem;
+  border-radius: 6px;
+  background: var(--claro-tone);
+  color: var(--md-default-bg-color);
+  font-size: 1.1rem;
+  letter-spacing: 0;
+}
+
+/* Tabelas antes/depois */
+.md-typeset table:not([class]) th {
+  background: var(--claro-surface);
+}
+.md-typeset .claro-before { color: var(--md-default-fg-color--light); }
+
+/* Linha do tempo do roadmap */
+.claro-timeline {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.6rem;
+  margin: 1rem 0;
+}
+@media (max-width: 44.9375em) {
+  .claro-timeline { grid-template-columns: 1fr 1fr; }
+}
+.claro-timeline div {
+  border-top: 4px solid var(--md-primary-fg-color--light);
+  background: var(--claro-surface);
+  padding: 0.6rem 0.7rem;
+  border-radius: 0 0 6px 6px;
+  font-size: 0.78rem;
+  line-height: 1.45;
+}
+.claro-timeline strong { display: block; }
+
+/* Tabelas e caixas de aviso com corpo legível (o padrão do tema é pequeno demais) */
+.md-typeset table:not([class]) { font-size: 0.78rem; }
+.md-typeset .admonition,
+.md-typeset details { font-size: 0.8rem; }
+.md-typeset .admonition-title,
+.md-typeset summary { font-size: 0.8rem; }
+
+/* Título de aviso ocupa a largura toda */
+.md-typeset .admonition-title,
+.md-typeset summary { max-width: none; }
+
+/* Títulos com contraste total (o padrão do tema usa cinza claro no h1) */
+.md-typeset h1 { color: var(--md-default-fg-color); font-weight: 700; }
+
+/* Botões secundários legíveis no tema escuro */
+[data-md-color-scheme="slate"] .md-typeset .md-button:not(.md-button--primary) {
+  color: var(--md-typeset-a-color);
+  border-color: var(--md-typeset-a-color);
+}
+[data-md-color-scheme="slate"] .md-typeset .md-button--primary {
+  background-color: #2f6b7d;
+  border-color: #2f6b7d;
+  color: #ffffff;
+}
+
+/* Links no meio do texto sublinhados — não dependem só da cor (WCAG 1.4.1) */
+.md-typeset a:not(.md-button):not(.claro-letter):not(.headerlink) {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+.md-typeset a:not(.md-button):not(.claro-letter):not(.headerlink):hover {
+  text-decoration-thickness: 2px;
+}
+
+/* Texto secundário com contraste AA */
+.claro-letter .claro-desc { color: #4a5559; }
+[data-md-color-scheme="slate"] .claro-letter .claro-desc { color: #b9c3c7; }
+.md-footer-meta .md-copyright,
+.md-footer-meta .md-copyright__highlight { color: rgba(255, 255, 255, 0.82); }
+
+/* Cores de código com contraste AA nos dois temas */
+[data-md-color-scheme="default"] {
+  --md-code-hl-comment-color: #5b676b;
+  --md-code-hl-generic-color: #5b676b;
+  --md-code-hl-operator-color: #4b5563;
+  --md-code-hl-punctuation-color: #4b5563;
+  --md-code-hl-variable-color: #4b5563;
+  --md-code-hl-number-color: #b3261e;
+  --md-code-hl-constant-color: #5640c4;
+  --md-code-hl-function-color: #8a2f9a;
+  --md-code-hl-keyword-color: #2f5aa8;
+  --md-code-hl-string-color: #17663f;
+  --md-code-hl-special-color: #b0104a;
+}
+[data-md-color-scheme="slate"] {
+  --md-code-hl-comment-color: #a3adb4;
+  --md-code-hl-generic-color: #a3adb4;
+  --md-code-hl-operator-color: #c0c8cf;
+  --md-code-hl-punctuation-color: #c0c8cf;
+  --md-code-hl-variable-color: #c9d1d9;
+  --md-code-hl-number-color: #ff9a9a;
+  --md-code-hl-constant-color: #c2b5ff;
+  --md-code-hl-function-color: #e8a8f3;
+  --md-code-hl-keyword-color: #9cc0ff;
+  --md-code-hl-string-color: #8fe0b0;
+  --md-code-hl-special-color: #ff9ab6;
+}

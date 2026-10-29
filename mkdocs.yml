@@ -1,0 +1,113 @@
+site_name: CLARO
+site_description: Framework de boas práticas para acessibilidade cognitiva e de aprendizagem — W3C COGA e WCAG 2.2 traduzidos em decisões de produto.
+site_author: Emmanuel Sampaio
+site_url: https://emmanuel-sampaio.github.io/claro-acessibilidade-cognitiva/
+repo_url: https://github.com/Emmanuel-Sampaio/claro-acessibilidade-cognitiva
+repo_name: claro-acessibilidade-cognitiva
+edit_uri: edit/main/docs/
+copyright: CLARO · conteúdo sob licença CC BY 4.0 · exemplos de código sob MIT
+
+theme:
+  name: material
+  language: pt-BR
+  font:
+    text: Atkinson Hyperlegible
+    code: JetBrains Mono
+  icon:
+    logo: material/text-box-check-outline
+    repo: fontawesome/brands/github
+  favicon: assets/favicon.svg
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Mudar para tema escuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Mudar para tema claro
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+    - content.action.edit
+    - toc.follow
+
+hooks:
+  - hooks/a11y.py
+
+extra_css:
+  - stylesheets/claro.css
+
+plugins:
+  - search:
+      lang: pt
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      permalink_title: Link para esta seção
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets:
+      base_path: ["."]
+      check_paths: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra:
+  version_label: v0.1.0
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Emmanuel-Sampaio/claro-acessibilidade-cognitiva
+      name: Repositório no GitHub
+
+nav:
+  - Início: index.md
+  - O problema: problema.md
+  - Princípios:
+      - principios/index.md
+      - C · Clareza: principios/clareza.md
+      - L · Leveza: principios/leveza.md
+      - A · Apoio à memória: principios/apoio-a-memoria.md
+      - R · Ritmo: principios/ritmo.md
+      - O · Orientação: principios/orientacao.md
+  - Antes e depois: antes-e-depois.md
+  - Checklist: checklist.md
+  - Avaliação: avaliacao.md
+  - Roadmap: roadmap.md
+  - Referências: referencias.md
+  - Changelog: changelog.md
