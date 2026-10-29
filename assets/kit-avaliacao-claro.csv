@@ -1,0 +1,26 @@
+﻿Serviço;Tarefa auditada;Princípio;Itens atendidos (0-6);Itens não atendidos;Houve bloqueio? (sim/não);Nota (0-4);Evidência (arquivo do print);Observações;Avaliador(a);Data
+gov.br;Entrar na conta e emitir um documento;C · Clareza;;;;;;;;
+gov.br;Entrar na conta e emitir um documento;L · Leveza;;;;;;;;
+gov.br;Entrar na conta e emitir um documento;A · Apoio à memória;;;;;;;;
+gov.br;Entrar na conta e emitir um documento;R · Ritmo;;;;;;;;
+gov.br;Entrar na conta e emitir um documento;O · Orientação;;;;;;;;
+Matrícula escolar;Inscrever um estudante;C · Clareza;;;;;;;;
+Matrícula escolar;Inscrever um estudante;L · Leveza;;;;;;;;
+Matrícula escolar;Inscrever um estudante;A · Apoio à memória;;;;;;;;
+Matrícula escolar;Inscrever um estudante;R · Ritmo;;;;;;;;
+Matrícula escolar;Inscrever um estudante;O · Orientação;;;;;;;;
+Agendamento de saúde;Marcar uma consulta;C · Clareza;;;;;;;;
+Agendamento de saúde;Marcar uma consulta;L · Leveza;;;;;;;;
+Agendamento de saúde;Marcar uma consulta;A · Apoio à memória;;;;;;;;
+Agendamento de saúde;Marcar uma consulta;R · Ritmo;;;;;;;;
+Agendamento de saúde;Marcar uma consulta;O · Orientação;;;;;;;;
+Banco;Fazer um Pix para um contato novo;C · Clareza;;;;;;;;
+Banco;Fazer um Pix para um contato novo;L · Leveza;;;;;;;;
+Banco;Fazer um Pix para um contato novo;A · Apoio à memória;;;;;;;;
+Banco;Fazer um Pix para um contato novo;R · Ritmo;;;;;;;;
+Banco;Fazer um Pix para um contato novo;O · Orientação;;;;;;;;
+E-commerce;Comprar um produto como visitante;C · Clareza;;;;;;;;
+E-commerce;Comprar um produto como visitante;L · Leveza;;;;;;;;
+E-commerce;Comprar um produto como visitante;A · Apoio à memória;;;;;;;;
+E-commerce;Comprar um produto como visitante;R · Ritmo;;;;;;;;
+E-commerce;Comprar um produto como visitante;O · Orientação;;;;;;;;
