@@ -18,7 +18,7 @@ Orientação responde a quatro perguntas que a pessoa faz o tempo todo, mesmo se
 3. **O que deu errado?** — erro específico, perto de onde aconteceu.
 4. **Como desfaço?** — voltar, editar, cancelar sem medo.
 
-Para pessoas com TEA, previsibilidade é essencial: o mesmo botão precisa ter o mesmo nome e fazer a mesma coisa em todo o produto.
+Previsibilidade reduz o esforço de todo mundo, e é essencial para quem tem dificuldade de [planejamento](../perfis/funcoes-executivas.md) ou de [memória](../perfis/memoria.md): o mesmo botão precisa ter o mesmo nome e fazer a mesma coisa em todo o produto.
 
 ## Faça / Evite
 
@@ -48,42 +48,14 @@ Para pessoas com TEA, previsibilidade é essencial: o mesmo botão precisa ter o
 | <span class="claro-before">"Dados inválidos"</span> | **"A data de nascimento precisa estar no formato dia/mês/ano. Exemplo: 07/03/1990."** |
 | <span class="claro-before">Excluir sem confirmação</span> | **"Arquivo excluído. Desfazer"** por 30 segundos, ou confirmação antes |
 
-## Em código
+## Por dificuldade
 
-Erro ligado ao campo, anunciado pelo leitor de tela e sem apagar o valor:
+Orientação atende principalmente estas dificuldades. O código está em cada perfil:
 
-```html
-<label for="cpf">CPF</label>
-<input id="cpf" name="cpf" inputmode="numeric"
-       aria-invalid="true"
-       aria-describedby="cpf-erro" value="123456789">
-<p id="cpf-erro" class="erro">
-  O CPF tem 11 números. Você digitou 9.
-</p>
-
-<!-- Região de status para confirmações -->
-<div role="status" id="status"></div>
-```
-
-```js
-function validarCPF(campo) {
-  const digitos = campo.value.replace(/\D/g, '');
-  const erro = document.querySelector('#cpf-erro');
-  if (digitos.length !== 11) {
-    campo.setAttribute('aria-invalid', 'true');
-    erro.textContent =
-      `O CPF tem 11 números. Você digitou ${digitos.length}.`;
-    return false;
-  }
-  campo.removeAttribute('aria-invalid');
-  erro.textContent = '';
-  return true;
-}
-
-// Depois de salvar:
-document.querySelector('#status').textContent =
-  'Cadastro salvo. Próximo passo: enviar documentos.';
-```
+| Dificuldade | O que tem de código lá |
+|---|---|
+| [Planejamento e organização](../perfis/funcoes-executivas.md) | etapas, erro que diz como resolver, revisão e desfazer |
+| [Memória](../perfis/memoria.md) | ajuda no mesmo lugar, protocolo guardado pelo sistema |
 
 ## Base normativa
 

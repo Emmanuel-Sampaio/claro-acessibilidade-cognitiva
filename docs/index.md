@@ -6,7 +6,7 @@ hide:
 ---
 
 <div class="claro-hero" markdown>
-<p class="claro-kicker">Tópicos em acessibilidade digital · v0.1.0</p>
+<p class="claro-kicker">Tópicos em acessibilidade digital · v0.2.0</p>
 
 # CLARO
 
@@ -14,6 +14,7 @@ hide:
 </div>
 
 [Ver os princípios](principios/index.md){ .md-button .md-button--primary }
+[Perfis por dificuldade](perfis/index.md){ .md-button }
 [Abrir o checklist](checklist.md){ .md-button }
 [Baixar o pitch (PDF)](assets/CLARO-pitch-acessibilidade-cognitiva.pdf){ .md-button }
 
@@ -52,10 +53,23 @@ hide:
 A norma já existe. A prática, não.
 
 - A WCAG 2.2 trouxe critérios cognitivos novos, mas boa parte da orientação cognitiva continua no nível AAA ou como recomendação não testável. Na prática, ela some do escopo.
-- O W3C COGA tem 8 objetivos e mais de 100 padrões de projeto. É excelente — e longo demais para caber numa revisão de PR.
+- O W3C COGA tem 8 objetivos e 58 padrões de projeto. É excelente — e longo demais para caber numa revisão de PR.
 - Ferramentas automáticas encontram contraste, `alt` e rótulo. **Não encontram** texto confuso, fluxo longo, prazo curto ou erro incompreensível.
 
 **A lacuna não é de norma. É de tradução.** O CLARO organiza o que já existe em cinco princípios fáceis de lembrar, cada um com práticas verificáveis e critérios de aceite. [Entenda o problema&nbsp;→](problema.md)
+
+## Seis dificuldades, não diagnósticos
+
+O público do CLARO é descrito pela **dificuldade que a pessoa encontra**, não pelo diagnóstico. Dificuldade de atenção, por exemplo, aparece em muitas condições diferentes e em qualquer pessoa cansada ou interrompida. Cada perfil traz barreiras, base normativa, um teste simples e **código pronto para adaptar**.
+
+<div class="claro-cards">
+  <a class="claro-card" href="perfis/atencao/"><span class="claro-num" aria-hidden="true">1</span><span class="claro-name">Atenção</span><span class="claro-desc">Foco, distrações e interrupções.</span></a>
+  <a class="claro-card" href="perfis/memoria/"><span class="claro-num" aria-hidden="true">2</span><span class="claro-name">Memória</span><span class="claro-desc">Guardar e lembrar informações.</span></a>
+  <a class="claro-card" href="perfis/leitura-e-linguagem/"><span class="claro-num" aria-hidden="true">3</span><span class="claro-name">Leitura e linguagem</span><span class="claro-desc">Texto, vocabulário e sentido figurado.</span></a>
+  <a class="claro-card" href="perfis/numeros/"><span class="claro-num" aria-hidden="true">4</span><span class="claro-name">Números e cálculo</span><span class="claro-desc">Valores, datas, unidades e contas.</span></a>
+  <a class="claro-card" href="perfis/funcoes-executivas/"><span class="claro-num" aria-hidden="true">5</span><span class="claro-name">Planejamento e organização</span><span class="claro-desc">Etapas, decisões e correção de erros.</span></a>
+  <a class="claro-card" href="perfis/velocidade/"><span class="claro-num" aria-hidden="true">6</span><span class="claro-name">Velocidade de processamento</span><span class="claro-desc">Mais tempo para ler e decidir.</span></a>
+</div>
 
 ## Para quem é
 
@@ -69,9 +83,9 @@ A norma já existe. A prática, não.
 
 ## Como usar em 3 passos
 
-1. **Leia os princípios.** Cada página tem o que fazer, o que evitar e como verificar.
-2. **Adote o checklist.** São 30 itens prontos para entrar na *Definition of Done*.
+1. **Escolha o ponto de partida.** Conhece o público? Comece pelo [perfil da dificuldade](perfis/index.md). Vai revisar uma tela? Comece pelos [princípios](principios/index.md).
+2. **Adote o checklist.** São 30 itens prontos para entrar na *Definition of Done*, com prioridade por dificuldade.
 3. **Meça.** Use a rubrica de 0 a 4 por princípio para ter linha de base e evolução.
 
 !!! info "Status do projeto"
-    Esta é a **versão 0.1.0**: a proposta do framework, publicada junto com o pitch da disciplina. O checklist e a rubrica são rascunhos que serão validados na auditoria e nos testes com usuários. Veja o [roadmap](roadmap.md) e o [changelog](changelog.md).
+    Esta é a **versão 0.2.0**: perfis por dificuldade com código, seção de normas reestruturada e checklist ligado aos perfis. O checklist e a rubrica continuam em rascunho e serão validados na auditoria e nos testes com usuários. Veja o [roadmap](roadmap.md) e o [changelog](changelog.md).

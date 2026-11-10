@@ -11,7 +11,7 @@ description: Uma tarefa por tela — menos opções, menos campos, menos ruído 
 
 ## O que é
 
-Atenção e memória de trabalho são recursos limitados — para todo mundo, e bem mais para quem tem TDAH, deficiência intelectual ou está sob estresse. Cada elemento extra na tela cobra um pouco desse recurso. Leveza é gastar a atenção da pessoa só com o que importa para a tarefa atual.
+Atenção e memória de trabalho são recursos limitados — para todo mundo, e bem mais para quem tem [dificuldade de atenção](../perfis/atencao.md) ou de [planejamento](../perfis/funcoes-executivas.md), ou está cansado e sob estresse. Cada elemento extra na tela cobra um pouco desse recurso. Leveza é gastar a atenção da pessoa só com o que importa para a tarefa atual.
 
 ## Faça / Evite
 
@@ -40,25 +40,14 @@ Atenção e memória de trabalho são recursos limitados — para todo mundo, e 
 | <span class="claro-before">Formulário único com 32 campos</span> | **4 etapas de 8 campos, com barra de progresso** |
 | <span class="claro-before">Tela de pagamento com banner de cartão, cupom e chat abertos</span> | **Só o resumo do pedido e o botão Pagar; cupom em link discreto** |
 
-## Em código
+## Por dificuldade
 
-Indicador de etapas que funciona para quem enxerga e para quem usa leitor de tela:
+Leveza atende principalmente estas dificuldades. O código está em cada perfil:
 
-```html
-<nav aria-label="Etapas do cadastro">
-  <ol class="etapas">
-    <li>Dados pessoais</li>
-    <li aria-current="step">Endereço</li>
-    <li>Documentos</li>
-    <li>Revisão</li>
-  </ol>
-</nav>
-
-<h1>Endereço <span class="progresso">(etapa 2 de 4)</span></h1>
-```
-
-!!! tip "Leveza não é esconder"
-    Dividir em etapas só ajuda se a pessoa sabe quantas faltam e consegue voltar sem perder nada. Veja [Apoio à memória](apoio-a-memoria.md) e [Orientação](orientacao.md).
+| Dificuldade | O que tem de código lá |
+|---|---|
+| [Atenção](../perfis/atencao.md) | carrossel com pausa, notificações adiadas, menos movimento |
+| [Planejamento e organização](../perfis/funcoes-executivas.md) | "Antes de começar", etapas visíveis |
 
 ## Base normativa
 

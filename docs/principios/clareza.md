@@ -41,24 +41,15 @@ Clareza é a pessoa entender **na primeira leitura**, mesmo cansada, com pressa 
 | <span class="claro-before">"Informe o identificador do contribuinte"</span> | **"Digite seu CPF"** |
 | <span class="claro-before">"Clique aqui"</span> | **"Baixar comprovante (PDF)"** |
 
-## Em código
+## Por dificuldade
 
-Instrução visível, ligada ao campo, e sigla explicada:
+Clareza atende principalmente estas dificuldades. O código está em cada perfil:
 
-```html
-<label for="cpf">CPF</label>
-<p id="cpf-ajuda">Só os 11 números. Exemplo: 12345678901.</p>
-<input id="cpf" name="cpf" inputmode="numeric"
-       autocomplete="off" aria-describedby="cpf-ajuda">
-
-<p>
-  O <abbr title="Cadastro de Pessoas Físicas">CPF</abbr>
-  é o número que aparece no seu documento.
-</p>
-```
-
-!!! note "Por que não só o placeholder?"
-    O texto do *placeholder* desaparece quando a pessoa começa a digitar. Quem tem memória de trabalho limitada perde a instrução no meio da tarefa.
+| Dificuldade | O que tem de código lá |
+|---|---|
+| [Leitura e linguagem](../perfis/leitura-e-linguagem.md) | CSS de leitura, termos explicados, ícone com texto, resumo |
+| [Números e cálculo](../perfis/numeros.md) | valores com total, prazos legíveis, formatos aceitos |
+| [Memória](../perfis/memoria.md) | instrução visível que não some |
 
 ## Base normativa
 

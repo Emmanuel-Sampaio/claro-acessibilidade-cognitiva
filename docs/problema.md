@@ -31,31 +31,34 @@ As barreiras cognitivas são invisíveis para as ferramentas. Por isso quase nun
 
 ## Não é um público pequeno
 
-Transtornos cognitivos e de aprendizagem atravessam toda a população.
+Dificuldades cognitivas atravessam toda a população — com ou sem diagnóstico, de forma permanente ou passageira. Por isso o CLARO olha para a **dificuldade**, não para o laudo.
 
-| Público | O que é mais afetado | Barreiras típicas |
+| Dificuldade | Como aparece na interface | Barreiras típicas |
 |---|---|---|
-| **TDAH** | Atenção sustentada, foco, impulsividade | Ruído visual, fluxos longos |
-| **Dislexia e discalculia** | Leitura e números | Texto denso, fonte apertada, prazo |
-| **Deficiência intelectual** | Abstração, memória de trabalho | Jargão, etapas encadeadas |
-| **TEA** | Linguagem literal, previsibilidade | Metáfora, ironia, mudança de padrão |
-| **Envelhecimento** | Memória, velocidade de processamento | Tudo acima — e é o grupo que mais cresce no Brasil |
-| **Situacional** | Qualquer pessoa, algum dia | Cansaço, pressa, dor, luto, estresse, segunda língua |
+| [**Atenção**](perfis/atencao.md) | Perde o foco com o que se move; se perde depois de uma interrupção | Pop-ups, carrosséis, fluxos longos |
+| [**Memória**](perfis/memoria.md) | Esquece o código entre uma tela e outra; não lembra senhas | Colar bloqueado, dado pedido duas vezes |
+| [**Leitura e linguagem**](perfis/leitura-e-linguagem.md) | Cansa com blocos de texto; lê metáfora ao pé da letra | Jargão, frases longas, ícone sem texto |
+| [**Números e cálculo**](perfis/numeros.md) | Não converte "12x de R$ 49,90" no total | Contas de cabeça, taxas escondidas |
+| [**Planejamento e organização**](perfis/funcoes-executivas.md) | Começa sem saber do que vai precisar; trava em erros | Etapas sem fim visível, erro genérico |
+| [**Velocidade de processamento**](perfis/velocidade.md) | Precisa de mais tempo para ler e decidir | Sessão que expira, mensagem que some |
+
+!!! info "Uma dificuldade, muitas origens"
+    A mesma dificuldade de atenção pode vir de condições muito diferentes, de nenhuma condição diagnosticada, ou simplesmente de cansaço, dor, luto, estresse, pressa ou de estar usando o celular com uma criança no colo. Ninguém está livre de precisar disso algum dia.
 
 <div class="claro-stats">
   <div class="claro-stat"><strong>14,4 mi</strong><span>pessoas com deficiência no Brasil (7,3% da população de 2 anos ou mais).</span></div>
-  <div class="claro-stat"><strong>2,4 mi</strong><span>pessoas com diagnóstico de TEA.</span></div>
+  <div class="claro-stat"><strong>1,4 mi</strong><span>com limitação em funções mentais que afeta comunicação, cuidados pessoais, trabalho ou estudo.</span></div>
   <div class="claro-stat"><strong>27,5%</strong><span>das pessoas com 70 anos ou mais têm alguma deficiência.</span></div>
 </div>
 
-<small>Fonte: IBGE, Censo Demográfico 2022 (resultados da amostra, divulgados em 2025). Segundo o mesmo levantamento, 63,1% das pessoas com deficiência de 25 anos ou mais não concluíram o ensino fundamental — mais um motivo para linguagem simples.</small>
+<small>Fonte: IBGE, Censo Demográfico 2022 (resultados da amostra, divulgados em 2025). O Censo identifica deficiência por **dificuldade funcional** autodeclarada, não por laudo — a mesma lógica dos perfis do CLARO. Segundo o mesmo levantamento, 63,1% das pessoas com deficiência de 25 anos ou mais não concluíram o ensino fundamental — mais um motivo para linguagem simples.</small>
 
 ## A norma existe. A prática, não.
 
 === "O que já temos"
 
     - A **WCAG 2.2** trouxe critérios cognitivos: Ajuda Consistente (3.2.6), Entrada Redundante (3.3.7) e Autenticação Acessível (3.3.8).
-    - O **W3C COGA** — *Making Content Usable for People with Cognitive and Learning Disabilities* — tem 8 objetivos e mais de 100 padrões de projeto.
+    - O **W3C COGA** — *Making Content Usable for People with Cognitive and Learning Disabilities* — tem 8 objetivos e 58 padrões de projeto.
     - A **LBI** (Lei 13.146/2015) e o **eMAG** obrigam acessibilidade no setor público.
 
 === "O que ainda falta"

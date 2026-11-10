@@ -11,7 +11,7 @@ description: A pessoa controla o tempo — sem cronômetro, sem carrossel autom�
 
 ## O que é
 
-Cada pessoa lê, decide e digita numa velocidade. Quem tem dislexia lê mais devagar. Quem tem TDAH perde o foco quando algo se move. Quem é mais velho processa com mais calma. Quando o produto impõe o tempo, ele exclui exatamente essas pessoas — e qualquer um que foi interrompido no meio da tarefa.
+Cada pessoa lê, decide e digita numa velocidade. Quem tem [velocidade de processamento](../perfis/velocidade.md) mais lenta precisa de mais tempo para ler e decidir. Quem tem [dificuldade de atenção](../perfis/atencao.md) perde o foco quando algo se move. Quando o produto impõe o tempo, ele exclui exatamente essas pessoas — e qualquer um que foi interrompido no meio da tarefa.
 
 ## Faça / Evite
 
@@ -41,58 +41,14 @@ Cada pessoa lê, decide e digita numa velocidade. Quem tem dislexia lê mais dev
 | <span class="claro-before">Carrossel de banners troca a cada 3 segundos</span> | **Banners estáticos, ou carrossel parado com setas** |
 | <span class="claro-before">"Sucesso!" some em 2 segundos</span> | **Mensagem fica até a pessoa fechar ou seguir** |
 
-## Em código
+## Por dificuldade
 
-Aviso de sessão com tempo de sobra para responder (a WCAG pede pelo menos 20 segundos):
+Ritmo atende principalmente estas dificuldades. O código está em cada perfil:
 
-```html
-<dialog id="aviso-sessao" aria-labelledby="aviso-titulo">
-  <h2 id="aviso-titulo">Sua sessão vai terminar em 1 minuto</h2>
-  <p>O que você preencheu está salvo. Quer continuar?</p>
-  <button id="mais-tempo">Preciso de mais tempo</button>
-  <button id="sair">Sair agora</button>
-</dialog>
-```
-
-```js
-const DURACAO = 5 * 60 * 1000;      // sessão de 5 min
-const AVISO_ANTES = 60 * 1000;      // avisa 1 min antes
-const dialogo = document.querySelector('#aviso-sessao');
-let timerAviso, timerFim;
-
-function encerrarComRascunho() {
-  // O rascunho já foi salvo (veja Apoio à memória).
-  // Leve a pessoa ao login dizendo que nada se perdeu.
-  location.assign('/entrar?motivo=sessao-expirada');
-}
-
-function iniciarSessao() {
-  clearTimeout(timerAviso);
-  clearTimeout(timerFim);
-  timerAviso = setTimeout(() => dialogo.showModal(), DURACAO - AVISO_ANTES);
-  timerFim = setTimeout(encerrarComRascunho, DURACAO);
-}
-
-document.querySelector('#mais-tempo').addEventListener('click', async () => {
-  await fetch('/api/sessao/renovar', { method: 'POST' });
-  dialogo.close();
-  iniciarSessao();
-});
-
-iniciarSessao();
-```
-
-E nada de movimento para quem pediu menos movimento:
-
-```css
-@media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after {
-    animation: none !important;
-    transition: none !important;
-    scroll-behavior: auto !important;
-  }
-}
-```
+| Dificuldade | O que tem de código lá |
+|---|---|
+| [Velocidade de processamento](../perfis/velocidade.md) | aviso de sessão, mensagens que esperam, vídeo, layout estável |
+| [Atenção](../perfis/atencao.md) | pausa no que se move, menos movimento |
 
 ## Base normativa
 

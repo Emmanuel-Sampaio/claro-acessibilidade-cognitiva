@@ -7,13 +7,13 @@ description: Como cada princípio vira decisão — exemplos que cabem num crit�
 
 Cada linha abaixo cabe num critério de aceite e é verificável em revisão.
 
-| | Antes | Depois |
-|---|---|---|
-| **C** | <span class="claro-before">"Prossiga com a validação biométrica facial"</span> | **"Tire uma foto do seu rosto"** |
-| **L** | <span class="claro-before">Formulário único com 32 campos</span> | **4 etapas de 8 campos, com barra de progresso** |
-| **A** | <span class="claro-before">Código do SMS expira e o campo zera ao voltar</span> | **Colar permitido, campo preservado, 10 minutos** |
-| **R** | <span class="claro-before">Sessão cai em 5 minutos sem aviso</span> | **Aviso aos 4 min + botão "Preciso de mais tempo"** |
-| **O** | <span class="claro-before">"Erro 422: payload inválido"</span> | **"O CPF tem 11 dígitos. Você digitou 9."** |
+| | Antes | Depois | Ajuda principalmente |
+|---|---|---|---|
+| **C** | <span class="claro-before">"Prossiga com a validação biométrica facial"</span> | **"Tire uma foto do seu rosto"** | [Leitura e linguagem](perfis/leitura-e-linguagem.md) |
+| **L** | <span class="claro-before">Formulário único com 32 campos</span> | **4 etapas de 8 campos, com barra de progresso** | [Atenção](perfis/atencao.md) · [Planejamento](perfis/funcoes-executivas.md) |
+| **A** | <span class="claro-before">Código do SMS expira e o campo zera ao voltar</span> | **Colar permitido, campo preservado, 10 minutos** | [Memória](perfis/memoria.md) |
+| **R** | <span class="claro-before">Sessão cai em 5 minutos sem aviso</span> | **Aviso aos 4 min + botão "Preciso de mais tempo"** | [Velocidade](perfis/velocidade.md) |
+| **O** | <span class="claro-before">"Erro 422: payload inválido"</span> | **"O CPF tem 11 dígitos. Você digitou 9."** | [Planejamento](perfis/funcoes-executivas.md) · [Números](perfis/numeros.md) |
 
 !!! quote ""
     Nenhuma dessas mudanças exige tecnologia nova. Exige decisão — e alguém responsável por ela.
@@ -86,4 +86,5 @@ O jeito mais simples de levar o CLARO para a sprint é escrever o "depois" como 
 | A | <span class="claro-before">Chat de ajuda muda de canto em cada página</span> | **Botão "Ajuda" sempre no mesmo lugar do cabeçalho** |
 | R | <span class="claro-before">"Redirecionando em 3… 2… 1…"</span> | **Botão "Continuar" que a pessoa clica quando quiser** |
 | O | <span class="claro-before">Excluir conta sem confirmação</span> | **Tela de revisão + digitar "excluir" para confirmar** |
+| A | <span class="claro-before">"12x de R$ 49,90"</span> | **"12x de R$ 49,90 — total de R$ 598,80"** |
 | O | <span class="claro-before">Lixeira que significa "excluir" numa tela e "arquivar" em outra</span> | **Mesmo ícone, mesmo nome, mesma ação em todo o produto** |

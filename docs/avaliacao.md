@@ -45,7 +45,9 @@ Cada serviço recebe uma **nota de 0 a 4 por princípio**, com evidência em pri
 
 ## Fase 02 · Teste com usuários
 
-**12 participantes** com TDAH, dislexia e deficiência intelectual executam a mesma tarefa na **versão original** e na **versão ajustada** pelo CLARO.
+**12 participantes** executam a mesma tarefa na **versão original** e na **versão ajustada** pelo CLARO.
+
+A seleção é feita pela **dificuldade relatada**, não por diagnóstico: duas pessoas para cada um dos [seis perfis](perfis/index.md) — atenção, memória, leitura e linguagem, números, planejamento e velocidade de processamento. Ninguém precisa apresentar laudo. A triagem usa perguntas curtas sobre dificuldade funcional, no estilo das usadas pelo Censo do IBGE (por exemplo: "Você tem dificuldade para se concentrar numa tarefa?"). Como uma pessoa costuma ter mais de uma dificuldade, os resultados também são analisados por perfil.
 
 | Métrica | Como medir | Direção esperada |
 |---|---|---|

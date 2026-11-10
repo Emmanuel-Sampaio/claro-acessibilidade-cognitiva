@@ -22,33 +22,25 @@ Todas as páginas de princípio seguem a mesma estrutura — previsibilidade tam
 1. **O que é** — a ideia em poucas linhas.
 2. **Faça / Evite** — práticas concretas.
 3. **Antes e depois** — um exemplo real de decisão.
-4. **Em código** — um trecho de HTML ou JavaScript.
+4. **Por dificuldade** — quais perfis o princípio atende, com link para o código de cada um.
 5. **Base normativa** — critérios da WCAG 2.2 e objetivos do COGA.
 6. **Como verificar** — o que olhar na revisão.
 
-## Mapa normativo
+## Princípios e perfis
 
-O CLARO não cria requisitos novos. Cada princípio agrupa critérios da WCAG 2.2 e objetivos do W3C COGA.
+Os **princípios** dizem *o que fazer*. Os [perfis por dificuldade](../perfis/index.md) dizem *para quem* e trazem o código. Os dois se cruzam:
 
-| Princípio | WCAG 2.2 (principais) | Objetivos COGA |
-|---|---|---|
-| **C** Clareza | 2.4.6 · 3.3.2 · 3.1.3 · 3.1.4 · 3.1.5 | 1 · 3 |
-| **L** Leveza | 2.4.10 · 3.2.5 · 3.2.3 · 2.4.5 | 2 · 5 · 8 |
-| **A** Apoio à memória | 3.3.7 · 3.3.8 · 3.3.9 · 3.2.6 · 1.3.5 | 6 · 7 |
-| **R** Ritmo | 2.2.1 · 2.2.2 · 2.2.3 · 2.2.5 · 2.2.6 · 1.4.2 | 5 · 8 |
-| **O** Orientação | 3.3.1 · 3.3.3 · 3.3.4 · 2.4.8 · 3.2.4 · 4.1.3 | 2 · 4 |
+| Princípio | Atende principalmente |
+|---|---|
+| **C** Clareza | [Leitura e linguagem](../perfis/leitura-e-linguagem.md) · [Números e cálculo](../perfis/numeros.md) |
+| **L** Leveza | [Atenção](../perfis/atencao.md) · [Planejamento e organização](../perfis/funcoes-executivas.md) |
+| **A** Apoio à memória | [Memória](../perfis/memoria.md) · [Números e cálculo](../perfis/numeros.md) |
+| **R** Ritmo | [Velocidade de processamento](../perfis/velocidade.md) · [Atenção](../perfis/atencao.md) |
+| **O** Orientação | [Planejamento e organização](../perfis/funcoes-executivas.md) · [Memória](../perfis/memoria.md) |
 
-??? info "Os 8 objetivos do W3C COGA"
-    1. Ajudar a pessoa a entender o que as coisas são e como usá-las.
-    2. Ajudar a pessoa a encontrar o que precisa.
-    3. Usar conteúdo claro e compreensível.
-    4. Ajudar a pessoa a evitar erros e a saber corrigi-los.
-    5. Ajudar a pessoa a manter o foco.
-    6. Garantir que os processos não dependam da memória.
-    7. Oferecer ajuda e suporte.
-    8. Apoiar adaptação e personalização.
+## Base normativa
 
-    Tradução livre de *Making Content Usable for People with Cognitive and Learning Disabilities* (W3C).
+O CLARO não cria requisitos novos: cada princípio agrupa critérios da WCAG 2.2 e padrões do W3C COGA. A relação completa está na seção [Normas](../normas/index.md), e a tabela princípio × critério na [matriz normativa](../normas/matriz.md#por-principio).
 
 !!! tip "Repare nos níveis"
-    Muitos critérios do mapa são **AAA** (3.1.5, 2.4.8, 2.2.6, 3.3.9…). Projetos costumam mirar só no AA, e é aí que a acessibilidade cognitiva some. O CLARO trata esses critérios como prática recomendada do time, mesmo quando não são exigência legal.
+    Muitos critérios ligados aos princípios são **AAA** (3.1.5, 2.4.8, 2.2.6, 3.3.9…). Projetos costumam mirar só no AA, e é aí que a acessibilidade cognitiva some. O CLARO trata esses critérios como prática recomendada do time, mesmo quando não são exigência legal.

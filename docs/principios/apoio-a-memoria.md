@@ -11,7 +11,7 @@ description: Nada de decorar — dados já informados persistem, códigos não m
 
 ## O que é
 
-Toda vez que o produto pede para a pessoa **lembrar**, **copiar à mão** ou **redigitar** algo, ele transfere trabalho do sistema para a memória dela. Para quem tem deficiência intelectual, dislexia, TDAH ou está envelhecendo, esse é um dos pontos de abandono mais comuns.
+Toda vez que o produto pede para a pessoa **lembrar**, **copiar à mão** ou **redigitar** algo, ele transfere trabalho do sistema para a memória dela. Para quem tem [dificuldade de memória](../perfis/memoria.md) — por qualquer motivo, permanente ou passageiro —, esse é um dos pontos de abandono mais comuns.
 
 A WCAG 2.2 trouxe três critérios novos exatamente aqui: 3.2.6, 3.3.7 e 3.3.8.
 
@@ -43,50 +43,14 @@ A WCAG 2.2 trouxe três critérios novos exatamente aqui: 3.2.6, 3.3.7 e 3.3.8.
 | <span class="claro-before">"Repita seu e-mail" com colar bloqueado</span> | **Um campo de e-mail, com confirmação por link** |
 | <span class="claro-before">Endereço de entrega e de cobrança digitados duas vezes</span> | **Caixa "Usar o mesmo endereço da entrega" marcada por padrão** |
 
-## Em código
+## Por dificuldade
 
-Campos que o navegador e o gerenciador de senhas conseguem preencher:
+Apoio à memória atende principalmente estas dificuldades. O código está em cada perfil:
 
-```html
-<label for="nome">Nome completo</label>
-<input id="nome" autocomplete="name">
-
-<label for="email">E-mail</label>
-<input id="email" type="email" autocomplete="email">
-
-<label for="senha">Senha</label>
-<input id="senha" type="password" autocomplete="current-password">
-
-<!-- Código recebido por SMS: o celular sugere o código
-     e colar funciona. Nunca bloqueie onpaste. -->
-<label for="codigo">Código de 6 números enviado por SMS</label>
-<input id="codigo" inputmode="numeric"
-       autocomplete="one-time-code" maxlength="6">
-```
-
-Guardar rascunho para não perder nada ao voltar ou recarregar:
-
-```js
-const form = document.querySelector('#cadastro');
-const CHAVE = 'cadastro-rascunho';
-
-// Restaura o que a pessoa já tinha digitado
-try {
-  const salvo = JSON.parse(sessionStorage.getItem(CHAVE) || '{}');
-  for (const [nome, valor] of Object.entries(salvo)) {
-    if (form.elements[nome]) form.elements[nome].value = valor;
-  }
-} catch { /* sem armazenamento: segue normal */ }
-
-// Salva a cada alteração (exceto senhas)
-form.addEventListener('input', () => {
-  const dados = {};
-  for (const campo of form.elements) {
-    if (campo.name && campo.type !== 'password') dados[campo.name] = campo.value;
-  }
-  try { sessionStorage.setItem(CHAVE, JSON.stringify(dados)); } catch {}
-});
-```
+| Dificuldade | O que tem de código lá |
+|---|---|
+| [Memória](../perfis/memoria.md) | autocomplete, colar código, rascunho, copiar protocolo |
+| [Números e cálculo](../perfis/numeros.md) | o sistema faz a conta pela pessoa |
 
 ## Base normativa
 

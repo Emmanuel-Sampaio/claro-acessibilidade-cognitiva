@@ -10,9 +10,10 @@ description: Entregáveis do projeto CLARO e cronograma de 12 semanas.
 | Entregável | Formato | Status |
 |---|---|---|
 | **Guia CLARO** | PDF e site acessível, em português, licença aberta | 🟡 Proposta publicada (este site) |
-| **Checklist de 30 itens** | Pronto para virar *Definition of Done* | 🟡 [Rascunho v0.1](checklist.md) |
+| **Perfis por dificuldade** | 6 perfis funcionais com código | 🟢 [Publicados na v0.2](perfis/index.md) |
+| **Checklist de 30 itens** | Pronto para virar *Definition of Done* | 🟡 [Rascunho v0.2](checklist.md) |
 | **Kit de avaliação** | Planilha de nota por princípio + roteiro de teste com usuários | 🟡 [Modelo de planilha](assets/kit-avaliacao-claro.csv) · roteiro a fazer |
-| **Repositório de exemplos** | Componentes antes/depois em HTML, CSS e React | 🟡 Trechos nas páginas de princípio · componentes a fazer |
+| **Repositório de exemplos** | Componentes antes/depois em HTML, CSS e React | 🟡 Trechos em cada perfil · componentes a fazer |
 
 ## Cronograma de 12 semanas
 
@@ -27,10 +28,11 @@ description: Entregáveis do projeto CLARO e cronograma de 12 semanas.
 
 | Versão | Marco | Conteúdo |
 |---|---|---|
-| **v0.1.0** | Pitch | Proposta, princípios, checklist e rubrica em rascunho — **esta versão** |
-| v0.2.0 | Fim da revisão de literatura | Mapa normativo revisado, referências comentadas |
-| v0.3.0 | Fim da auditoria | Resultados dos 5 serviços, com evidências |
-| v0.4.0 | Fim dos testes | Resultados dos testes com usuários, checklist revisado |
+| v0.1.0 | Pitch | Proposta, princípios, checklist e rubrica em rascunho |
+| **v0.2.0** | Perfis e normas | Perfis por dificuldade com código, seção de normas, matriz — **esta versão** |
+| v0.3.0 | Fim da revisão de literatura | Referências comentadas; perfis de percepção, comunicação social e fadiga cognitiva |
+| v0.4.0 | Fim da auditoria | Resultados dos 5 serviços, com evidências |
+| v0.5.0 | Fim dos testes | Resultados dos testes com usuários por perfil, checklist revisado |
 | **v1.0.0** | Publicação | Guia completo, kit de avaliação e repositório de componentes |
 
 ## Como contribuir
