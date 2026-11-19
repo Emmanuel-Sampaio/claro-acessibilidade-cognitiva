@@ -32,11 +32,11 @@ Os **princípios** dizem *o que fazer*. Os [perfis por dificuldade](../perfis/in
 
 | Princípio | Atende principalmente |
 |---|---|
-| **C** Clareza | [Leitura e linguagem](../perfis/leitura-e-linguagem.md) · [Números e cálculo](../perfis/numeros.md) |
-| **L** Leveza | [Atenção](../perfis/atencao.md) · [Planejamento e organização](../perfis/funcoes-executivas.md) |
-| **A** Apoio à memória | [Memória](../perfis/memoria.md) · [Números e cálculo](../perfis/numeros.md) |
+| **C** Clareza | [Leitura e linguagem](../perfis/leitura-e-linguagem.md) · [Números e cálculo](../perfis/numeros.md) · [Percepção](../perfis/percepcao.md) · [Comunicação social](../perfis/comunicacao-social.md) |
+| **L** Leveza | [Atenção](../perfis/atencao.md) · [Planejamento e organização](../perfis/funcoes-executivas.md) · [Percepção](../perfis/percepcao.md) · [Fadiga cognitiva](../perfis/fadiga-cognitiva.md) |
+| **A** Apoio à memória | [Memória](../perfis/memoria.md) · [Números e cálculo](../perfis/numeros.md) · [Fadiga cognitiva](../perfis/fadiga-cognitiva.md) |
 | **R** Ritmo | [Velocidade de processamento](../perfis/velocidade.md) · [Atenção](../perfis/atencao.md) |
-| **O** Orientação | [Planejamento e organização](../perfis/funcoes-executivas.md) · [Memória](../perfis/memoria.md) |
+| **O** Orientação | [Planejamento e organização](../perfis/funcoes-executivas.md) · [Memória](../perfis/memoria.md) · [Comunicação social](../perfis/comunicacao-social.md) |
 
 ## Base normativa
 

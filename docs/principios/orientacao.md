@@ -56,6 +56,7 @@ Orientação atende principalmente estas dificuldades. O código está em cada p
 |---|---|
 | [Planejamento e organização](../perfis/funcoes-executivas.md) | etapas, erro que diz como resolver, revisão e desfazer |
 | [Memória](../perfis/memoria.md) | ajuda no mesmo lugar, protocolo guardado pelo sistema |
+| [Comunicação social](../perfis/comunicacao-social.md) | chat com saída para uma pessoa, aviso antes de mudar |
 
 ## Base normativa
 

@@ -3,7 +3,7 @@ title: Atenção
 description: Perfil de dificuldade de atenção — manter o foco, filtrar distrações e retomar a tarefa depois de uma interrupção.
 ---
 
-<p class="claro-badge tone-p" data-letter="1">Perfil 1 de 6</p>
+<p class="claro-badge tone-p" data-letter="1">Perfil 1 de 9</p>
 
 # Atenção
 

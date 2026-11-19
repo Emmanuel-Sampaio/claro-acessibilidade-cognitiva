@@ -1,6 +1,6 @@
 ---
 title: Perfis por dificuldade
-description: Seis dificuldades funcionais — atenção, memória, leitura e linguagem, números, funções executivas e velocidade de processamento — e o que cada uma pede da interface.
+description: Nove dificuldades funcionais — atenção, memória, leitura e linguagem, números, planejamento, velocidade de processamento, percepção, comunicação social e fadiga cognitiva — e o que cada uma pede da interface.
 ---
 
 # Perfis por dificuldade
@@ -17,7 +17,7 @@ O CLARO organiza o público pela **dificuldade que a pessoa encontra na interfac
 3. **O time não sabe o diagnóstico de ninguém** — e nem deveria saber. Mas consegue observar onde as pessoas travam: no texto, na conta, no tempo, no excesso de coisas na tela.
 4. **É assim que a própria pesquisa mede.** O Censo 2022 do IBGE identificou deficiência por **dificuldade funcional** autodeclarada, não por laudo. O W3C COGA também descreve o público por funções cognitivas — memória, atenção, linguagem, leitura, números, velocidade de processamento.
 
-## Os seis perfis
+## Os nove perfis
 
 <div class="claro-cards">
   <a class="claro-card" href="atencao/">
@@ -50,6 +50,21 @@ O CLARO organiza o público pela **dificuldade que a pessoa encontra na interfac
     <span class="claro-name">Velocidade de processamento</span>
     <span class="claro-desc">Precisar de mais tempo para ler, entender, decidir e responder.</span>
   </a>
+  <a class="claro-card" href="percepcao/">
+    <span class="claro-num" aria-hidden="true">7</span>
+    <span class="claro-name">Percepção</span>
+    <span class="claro-desc">Separar o que importa do fundo e lidar com excesso de estímulo.</span>
+  </a>
+  <a class="claro-card" href="comunicacao-social/">
+    <span class="claro-num" aria-hidden="true">8</span>
+    <span class="claro-name">Comunicação social</span>
+    <span class="claro-desc">Entender tom, intenção e regras implícitas; falar com o serviço.</span>
+  </a>
+  <a class="claro-card" href="fadiga-cognitiva/">
+    <span class="claro-num" aria-hidden="true">9</span>
+    <span class="claro-name">Fadiga cognitiva</span>
+    <span class="claro-desc">Energia mental que acaba antes da tarefa.</span>
+  </a>
 </div>
 
 ## Dificuldade × princípio
@@ -64,6 +79,9 @@ Cada dificuldade é atendida principalmente por um ou dois princípios CLARO. Us
 | [Números e cálculo](numeros.md) | **principal** | – | **principal** | – | apoio |
 | [Planejamento e organização](funcoes-executivas.md) | – | **principal** | apoio | – | **principal** |
 | [Velocidade de processamento](velocidade.md) | apoio | apoio | – | **principal** | – |
+| [Percepção](percepcao.md) | **principal** | **principal** | – | apoio | – |
+| [Comunicação social](comunicacao-social.md) | **principal** | – | – | – | **principal** |
+| [Fadiga cognitiva](fadiga-cognitiva.md) | – | **principal** | **principal** | apoio | apoio |
 
 A versão completa, com critérios WCAG e padrões COGA, está na [matriz normativa](../normas/matriz.md).
 
@@ -78,5 +96,5 @@ Todas as páginas seguem a mesma ordem:
 5. **Base normativa** — padrões do COGA e critérios da WCAG 2.2.
 6. **Como testar** — um teste simples que qualquer pessoa do time consegue fazer.
 
-??? note "O que fica fora desta versão"
-    Percepção visual e auditiva, comunicação social e fadiga cognitiva também aparecem no COGA. Muitas soluções dos seis perfis já ajudam nesses casos — linguagem literal, por exemplo, está em [Leitura e linguagem](leitura-e-linguagem.md). Perfis próprios para essas áreas estão no [roadmap](../roadmap.md).
+!!! info "Novos na v0.3.0"
+    Os perfis de [Percepção](percepcao.md), [Comunicação social](comunicacao-social.md) e [Fadiga cognitiva](fadiga-cognitiva.md) entraram depois da [revisão de literatura](../literatura.md). A fadiga cognitiva tem um papel especial: ela **amplifica** as outras dificuldades, porque quem está esgotado passa a ter dificuldade de atenção, memória e velocidade.

@@ -2,6 +2,24 @@
 
 Todas as mudanças relevantes do CLARO ficam registradas aqui. O formato segue o [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/) e as versões seguem o [Versionamento Semântico](https://semver.org/lang/pt-BR/).
 
+## [0.3.0] — 2026-11-19
+
+Fecha a fase de revisão de literatura: o CLARO passa a ter base bibliográfica verificada, três perfis novos e um checklist revisado com a evidência.
+
+### Adicionado
+
+- **Revisão de literatura**: revisão narrativa com 20 referências comentadas (normas, legislação e estudos), todas conferidas na fonte; cinco achados principais e o que muda no framework por causa de cada um.
+- **Três perfis novos**, com código: Percepção, Comunicação social e Fadiga cognitiva. O framework passa de 6 para 9 perfis.
+- **Base de evidência do checklist**: cada item ligado à norma, ao padrão do COGA e ao estudo que o sustenta.
+- Lei nº 15.263/2025 (Política Nacional de Linguagem Simples) e as perguntas do Grupo de Washington como referências.
+- Página WCAG 2.2 para cognição: 46 critérios (16 A · 14 AA · 16 AAA), antes 38.
+
+### Alterado
+
+- Checklist v0.3: itens C1, C2, C6, L2, L5, A4, A6, R6, O3 e O5 revisados (o motivo de cada mudança está na página do checklist).
+- Avaliação: triagem pelo modelo do Grupo de Washington e pelo menos um participante por perfil.
+- Matriz normativa, páginas de princípio e página inicial atualizadas com os novos perfis.
+
 ## [0.2.0] — 2026-11-10
 
 O público passa a ser descrito por **dificuldade funcional**, não por diagnóstico, e a parte normativa ganha uma seção própria.
@@ -41,5 +59,6 @@ Primeira versão pública: a proposta do framework, publicada junto com o pitch 
 - Roadmap de 12 semanas e versões planejadas até a v1.0.0.
 - Pitch original em PDF.
 
+[0.3.0]: https://github.com/Emmanuel-Sampaio/claro-acessibilidade-cognitiva/releases/tag/v0.3.0
 [0.2.0]: https://github.com/Emmanuel-Sampaio/claro-acessibilidade-cognitiva/releases/tag/v0.2.0
 [0.1.0]: https://github.com/Emmanuel-Sampaio/claro-acessibilidade-cognitiva/releases/tag/v0.1.0

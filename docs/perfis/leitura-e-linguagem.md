@@ -3,7 +3,7 @@ title: Leitura e linguagem
 description: Perfil de dificuldade de leitura e linguagem — decodificar palavras, entender frases longas, vocabulário técnico e sentido figurado.
 ---
 
-<p class="claro-badge tone-p" data-letter="3">Perfil 3 de 6</p>
+<p class="claro-badge tone-p" data-letter="3">Perfil 3 de 9</p>
 
 # Leitura e linguagem
 

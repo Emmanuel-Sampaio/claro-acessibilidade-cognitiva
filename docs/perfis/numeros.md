@@ -3,7 +3,7 @@ title: Números e cálculo
 description: Perfil de dificuldade com números — entender valores, datas, horários e unidades, e fazer contas de cabeça.
 ---
 
-<p class="claro-badge tone-p" data-letter="4">Perfil 4 de 6</p>
+<p class="claro-badge tone-p" data-letter="4">Perfil 4 de 9</p>
 
 # Números e cálculo
 

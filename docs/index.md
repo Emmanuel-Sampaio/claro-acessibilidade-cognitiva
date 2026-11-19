@@ -6,7 +6,7 @@ hide:
 ---
 
 <div class="claro-hero" markdown>
-<p class="claro-kicker">Tópicos em acessibilidade digital · v0.2.0</p>
+<p class="claro-kicker">Tópicos em acessibilidade digital · v0.3.0</p>
 
 # CLARO
 
@@ -58,7 +58,7 @@ A norma já existe. A prática, não.
 
 **A lacuna não é de norma. É de tradução.** O CLARO organiza o que já existe em cinco princípios fáceis de lembrar, cada um com práticas verificáveis e critérios de aceite. [Entenda o problema&nbsp;→](problema.md)
 
-## Seis dificuldades, não diagnósticos
+## Nove dificuldades, não diagnósticos
 
 O público do CLARO é descrito pela **dificuldade que a pessoa encontra**, não pelo diagnóstico. Dificuldade de atenção, por exemplo, aparece em muitas condições diferentes e em qualquer pessoa cansada ou interrompida. Cada perfil traz barreiras, base normativa, um teste simples e **código pronto para adaptar**.
 
@@ -69,6 +69,9 @@ O público do CLARO é descrito pela **dificuldade que a pessoa encontra**, não
   <a class="claro-card" href="perfis/numeros/"><span class="claro-num" aria-hidden="true">4</span><span class="claro-name">Números e cálculo</span><span class="claro-desc">Valores, datas, unidades e contas.</span></a>
   <a class="claro-card" href="perfis/funcoes-executivas/"><span class="claro-num" aria-hidden="true">5</span><span class="claro-name">Planejamento e organização</span><span class="claro-desc">Etapas, decisões e correção de erros.</span></a>
   <a class="claro-card" href="perfis/velocidade/"><span class="claro-num" aria-hidden="true">6</span><span class="claro-name">Velocidade de processamento</span><span class="claro-desc">Mais tempo para ler e decidir.</span></a>
+  <a class="claro-card" href="perfis/percepcao/"><span class="claro-num" aria-hidden="true">7</span><span class="claro-name">Percepção</span><span class="claro-desc">Fundo, cor, espaçamento e excesso de estímulo.</span></a>
+  <a class="claro-card" href="perfis/comunicacao-social/"><span class="claro-num" aria-hidden="true">8</span><span class="claro-name">Comunicação social</span><span class="claro-desc">Tom, intenção, regras implícitas e atendimento.</span></a>
+  <a class="claro-card" href="perfis/fadiga-cognitiva/"><span class="claro-num" aria-hidden="true">9</span><span class="claro-name">Fadiga cognitiva</span><span class="claro-desc">Parar sem perder nada, decidir menos.</span></a>
 </div>
 
 ## Para quem é
@@ -88,4 +91,4 @@ O público do CLARO é descrito pela **dificuldade que a pessoa encontra**, não
 3. **Meça.** Use a rubrica de 0 a 4 por princípio para ter linha de base e evolução.
 
 !!! info "Status do projeto"
-    Esta é a **versão 0.2.0**: perfis por dificuldade com código, seção de normas reestruturada e checklist ligado aos perfis. O checklist e a rubrica continuam em rascunho e serão validados na auditoria e nos testes com usuários. Veja o [roadmap](roadmap.md) e o [changelog](changelog.md).
+    Esta é a **versão 0.3.0**, que fecha a fase de revisão de literatura: [referências comentadas](literatura.md), três perfis novos e o [checklist](checklist.md) revisado com base na evidência. O checklist e a rubrica continuam em rascunho e serão validados na auditoria e nos testes com usuários. Veja o [roadmap](roadmap.md) e o [changelog](changelog.md).

@@ -47,7 +47,7 @@ Cada serviço recebe uma **nota de 0 a 4 por princípio**, com evidência em pri
 
 **12 participantes** executam a mesma tarefa na **versão original** e na **versão ajustada** pelo CLARO.
 
-A seleção é feita pela **dificuldade relatada**, não por diagnóstico: duas pessoas para cada um dos [seis perfis](perfis/index.md) — atenção, memória, leitura e linguagem, números, planejamento e velocidade de processamento. Ninguém precisa apresentar laudo. A triagem usa perguntas curtas sobre dificuldade funcional, no estilo das usadas pelo Censo do IBGE (por exemplo: "Você tem dificuldade para se concentrar numa tarefa?"). Como uma pessoa costuma ter mais de uma dificuldade, os resultados também são analisados por perfil.
+A seleção é feita pela **dificuldade relatada**, não por diagnóstico, com pelo menos uma pessoa para cada um dos [nove perfis](perfis/index.md). Ninguém precisa apresentar laudo. A triagem segue o modelo das perguntas do [Grupo de Washington](literatura.md#normas-politicas-e-documentos-tecnicos) — as mesmas que inspiram o Censo — com respostas de "nenhuma dificuldade" a "não consegue de jeito nenhum" (por exemplo: "Você tem dificuldade para lembrar ou se concentrar?"). Como uma pessoa costuma ter mais de uma dificuldade, os resultados também são analisados por perfil.
 
 | Métrica | Como medir | Direção esperada |
 |---|---|---|

@@ -51,6 +51,7 @@ Apoio à memória atende principalmente estas dificuldades. O código está em c
 |---|---|
 | [Memória](../perfis/memoria.md) | autocomplete, colar código, rascunho, copiar protocolo |
 | [Números e cálculo](../perfis/numeros.md) | o sistema faz a conta pela pessoa |
+| [Fadiga cognitiva](../perfis/fadiga-cognitiva.md) | salvar e continuar depois |
 
 ## Base normativa
 

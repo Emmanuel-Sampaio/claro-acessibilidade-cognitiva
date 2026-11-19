@@ -48,6 +48,8 @@ Leveza atende principalmente estas dificuldades. O código está em cada perfil:
 |---|---|
 | [Atenção](../perfis/atencao.md) | carrossel com pausa, notificações adiadas, menos movimento |
 | [Planejamento e organização](../perfis/funcoes-executivas.md) | "Antes de começar", etapas visíveis |
+| [Percepção](../perfis/percepcao.md) | grupos visuais claros, nada piscando |
+| [Fadiga cognitiva](../perfis/fadiga-cognitiva.md) | quanto falta, menos decisões, resumo primeiro |
 
 ## Base normativa
 

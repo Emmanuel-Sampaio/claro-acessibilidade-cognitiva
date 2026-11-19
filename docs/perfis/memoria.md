@@ -3,7 +3,7 @@ title: Memória
 description: Perfil de dificuldade de memória — guardar uma informação por alguns segundos (memória de trabalho) ou lembrar dela depois (memória de longo prazo).
 ---
 
-<p class="claro-badge tone-p" data-letter="2">Perfil 2 de 6</p>
+<p class="claro-badge tone-p" data-letter="2">Perfil 2 de 9</p>
 
 # Memória
 

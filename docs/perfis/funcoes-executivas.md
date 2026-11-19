@@ -3,7 +3,7 @@ title: Planejamento e organização
 description: Perfil de dificuldade de funções executivas — planejar, seguir etapas em ordem, tomar decisões e corrigir o rumo quando algo dá errado.
 ---
 
-<p class="claro-badge tone-p" data-letter="5">Perfil 5 de 6</p>
+<p class="claro-badge tone-p" data-letter="5">Perfil 5 de 9</p>
 
 # Planejamento e organização
 

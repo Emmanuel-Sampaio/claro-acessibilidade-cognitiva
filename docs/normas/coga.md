@@ -14,14 +14,14 @@ O *Making Content Usable for People with Cognitive and Learning Disabilities* (W
 
 | # | Objetivo | Padrões | Princípio CLARO | Perfis mais atendidos |
 |---|---|---|---|---|
-| 1 | Ajudar a entender o que as coisas são e como usá-las | 7 | [O](../principios/orientacao.md) · [C](../principios/clareza.md) | Planejamento · Leitura |
+| 1 | Ajudar a entender o que as coisas são e como usá-las | 7 | [O](../principios/orientacao.md) · [C](../principios/clareza.md) | Planejamento · Leitura · Percepção |
 | 2 | Ajudar a encontrar o que precisa | 6 | [L](../principios/leveza.md) · [O](../principios/orientacao.md) | Atenção · Planejamento |
-| 3 | Usar conteúdo claro e compreensível | 13 | [C](../principios/clareza.md) | Leitura · Números |
-| 4 | Ajudar a evitar erros e saber corrigi-los | 12 | [O](../principios/orientacao.md) · [R](../principios/ritmo.md) | Planejamento · Velocidade · Números |
-| 5 | Ajudar a manter o foco | 4 | [L](../principios/leveza.md) | Atenção · Planejamento |
+| 3 | Usar conteúdo claro e compreensível | 13 | [C](../principios/clareza.md) | Leitura · Números · Percepção · Comunicação social |
+| 4 | Ajudar a evitar erros e saber corrigi-los | 12 | [O](../principios/orientacao.md) · [R](../principios/ritmo.md) | Planejamento · Velocidade · Números · Fadiga |
+| 5 | Ajudar a manter o foco | 4 | [L](../principios/leveza.md) | Atenção · Planejamento · Fadiga |
 | 6 | Garantir que os processos não dependam da memória | 5 | [A](../principios/apoio-a-memoria.md) | Memória · Números |
-| 7 | Oferecer ajuda e suporte | 7 | [A](../principios/apoio-a-memoria.md) · [O](../principios/orientacao.md) | Planejamento · Memória |
-| 8 | Apoiar adaptação e personalização | 4 | [R](../principios/ritmo.md) | Atenção · Velocidade |
+| 7 | Oferecer ajuda e suporte | 7 | [A](../principios/apoio-a-memoria.md) · [O](../principios/orientacao.md) | Planejamento · Memória · Comunicação social |
+| 8 | Apoiar adaptação e personalização | 4 | [R](../principios/ritmo.md) | Atenção · Velocidade · Percepção · Fadiga |
 
 ## Os padrões, objetivo por objetivo
 

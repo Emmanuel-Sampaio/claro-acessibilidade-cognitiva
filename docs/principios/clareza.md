@@ -50,6 +50,8 @@ Clareza atende principalmente estas dificuldades. O código está em cada perfil
 | [Leitura e linguagem](../perfis/leitura-e-linguagem.md) | CSS de leitura, termos explicados, ícone com texto, resumo |
 | [Números e cálculo](../perfis/numeros.md) | valores com total, prazos legíveis, formatos aceitos |
 | [Memória](../perfis/memoria.md) | instrução visível que não some |
+| [Percepção](../perfis/percepcao.md) | status que não depende só da cor, espaçamento que pode crescer |
+| [Comunicação social](../perfis/comunicacao-social.md) | mensagens literais, prazos completos, emoji com texto |
 
 ## Base normativa
 

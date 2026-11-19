@@ -76,7 +76,7 @@ São dois documentos do W3C com papéis diferentes. Entender a diferença é o p
   <p class="claro-flow-arrow" aria-hidden="true">↓ o CLARO organiza em duas visões ↓</p>
   <div class="claro-flow-row" role="listitem">
     <div><strong>5 princípios</strong><span>o que fazer: Clareza · Leveza · Apoio à memória · Ritmo · Orientação</span></div>
-    <div><strong>6 perfis</strong><span>para que dificuldade: Atenção · Memória · Leitura · Números · Planejamento · Velocidade</span></div>
+    <div><strong>9 perfis</strong><span>para que dificuldade: Atenção · Memória · Leitura · Números · Planejamento · Velocidade · Percepção · Comunicação social · Fadiga</span></div>
   </div>
   <p class="claro-flow-arrow" aria-hidden="true">↓</p>
   <div class="claro-flow-row claro-flow-one" role="listitem">

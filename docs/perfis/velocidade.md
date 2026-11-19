@@ -3,7 +3,7 @@ title: Velocidade de processamento
 description: Perfil de dificuldade de velocidade de processamento — precisar de mais tempo para ler, entender, decidir e responder.
 ---
 
-<p class="claro-badge tone-p" data-letter="6">Perfil 6 de 6</p>
+<p class="claro-badge tone-p" data-letter="6">Perfil 6 de 9</p>
 
 # Velocidade de processamento
 

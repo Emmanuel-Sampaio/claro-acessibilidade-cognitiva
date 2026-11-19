@@ -89,7 +89,7 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 extra:
-  version_label: v0.2.0
+  version_label: v0.3.0
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/Emmanuel-Sampaio/claro-acessibilidade-cognitiva
@@ -106,6 +106,9 @@ nav:
       - 4 · Números e cálculo: perfis/numeros.md
       - 5 · Planejamento e organização: perfis/funcoes-executivas.md
       - 6 · Velocidade de processamento: perfis/velocidade.md
+      - 7 · Percepção: perfis/percepcao.md
+      - 8 · Comunicação social: perfis/comunicacao-social.md
+      - 9 · Fadiga cognitiva: perfis/fadiga-cognitiva.md
   - Princípios:
       - principios/index.md
       - C · Clareza: principios/clareza.md
@@ -118,6 +121,7 @@ nav:
       - WCAG 2.2 para cognição: normas/wcag.md
       - Objetivos e padrões do COGA: normas/coga.md
       - Matriz normativa: normas/matriz.md
+  - Revisão de literatura: literatura.md
   - Antes e depois: antes-e-depois.md
   - Checklist: checklist.md
   - Avaliação: avaliacao.md

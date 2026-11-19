@@ -41,6 +41,9 @@ Dificuldades cognitivas atravessam toda a população — com ou sem diagnóstic
 | [**Números e cálculo**](perfis/numeros.md) | Não converte "12x de R$ 49,90" no total | Contas de cabeça, taxas escondidas |
 | [**Planejamento e organização**](perfis/funcoes-executivas.md) | Começa sem saber do que vai precisar; trava em erros | Etapas sem fim visível, erro genérico |
 | [**Velocidade de processamento**](perfis/velocidade.md) | Precisa de mais tempo para ler e decidir | Sessão que expira, mensagem que some |
+| [**Percepção**](perfis/percepcao.md) | Não percebe o aviso que só muda de cor; se perde no excesso de estímulo | Informação só na cor, fundo com textura, coisas piscando |
+| [**Comunicação social**](perfis/comunicacao-social.md) | Não entende o tom da mensagem; não consegue falar com o serviço | Mensagem ambígua, chatbot sem saída, atendimento só por telefone |
+| [**Fadiga cognitiva**](perfis/fadiga-cognitiva.md) | Começa bem e desiste no meio | Formulário que não salva, muitas decisões, fim não visível |
 
 !!! info "Uma dificuldade, muitas origens"
     A mesma dificuldade de atenção pode vir de condições muito diferentes, de nenhuma condição diagnosticada, ou simplesmente de cansaço, dor, luto, estresse, pressa ou de estar usando o celular com uma criança no colo. Ninguém está livre de precisar disso algum dia.
