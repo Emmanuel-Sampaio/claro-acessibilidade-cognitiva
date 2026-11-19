@@ -8,7 +8,7 @@ description: Seis itens por princípio, prontos para virar Definition of Done do
 Trinta itens, seis por princípio, escritos para caber na *Definition of Done* do time. Cada item é verificável por uma pessoa em revisão — sem ferramenta especial.
 
 !!! warning "Rascunho v0.3"
-    Terceira versão do checklist, revisada com base na [revisão de literatura](literatura.md). Ela ainda será validada na auditoria dos 5 serviços e nos testes com usuários (veja o [roadmap](roadmap.md)). Sugestões são bem-vindas pelas *issues* do repositório.
+    Terceira versão do checklist, revisada com base na [revisão de literatura](literatura.md). Ela ainda será validada na auditoria dos 5 serviços e no teste piloto, antes da versão 1.0 em 3 de dezembro de 2026 (veja o [roadmap](roadmap.md)). Sugestões são bem-vindas pelas *issues* do repositório.
 
 ??? info "O que mudou na v0.3 e por quê"
     | Item | Mudança | Motivo |

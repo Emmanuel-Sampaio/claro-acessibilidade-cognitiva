@@ -1,22 +1,22 @@
 ---
 title: Avaliação
-description: Como sabemos que funciona — linha de base, teste com usuários, iteração, rubrica de 0 a 4 e métricas.
+description: Como sabemos que funciona — auditoria com dois avaliadores, teste piloto, iteração, rubrica de 0 a 4 e o estudo completo planejado.
 ---
 
 # Como sabemos que funciona
 
-Três fases, com métrica antes e depois.
+Três fases até a entrega final, em 3 de dezembro de 2026, e um estudo completo depois da disciplina.
 
 <div class="claro-timeline">
-  <div><strong>01 · Linha de base</strong>Auditoria CLARO em 5 serviços</div>
-  <div><strong>02 · Teste com usuários</strong>12 participantes, versão original × ajustada</div>
-  <div><strong>03 · Iteração</strong>O que falhou volta para o checklist</div>
-  <div><strong>Guia v1.0</strong>Publicado com licença aberta</div>
+  <div><strong>01 · Auditoria</strong>5 serviços, 2 avaliadores · até 25/11</div>
+  <div><strong>02 · Teste piloto</strong>3 a 5 colegas, original × ajustada · até 01/12</div>
+  <div><strong>03 · Iteração</strong>O que falhou volta para o checklist · 02/12</div>
+  <div><strong>Guia v1.0</strong>Entrega final · 03/12</div>
 </div>
 
-## Fase 01 · Linha de base
+## Fase 01 · Auditoria (até 25/11)
 
-Auditoria CLARO em **5 serviços digitais brasileiros de alto uso**:
+Auditoria CLARO em **5 serviços digitais brasileiros de alto uso**, feita por **dois avaliadores de forma independente**. Onde as notas divergirem em mais de 1 ponto, os dois revisam a evidência juntos e registram o motivo da divergência — isso também mostra quais itens do checklist estão ambíguos.
 
 | Categoria | Tarefa sugerida para auditar |
 |---|---|
@@ -43,9 +43,21 @@ Cada serviço recebe uma **nota de 0 a 4 por princípio**, com evidência em pri
 
 **Kit de avaliação:** [baixe o modelo de planilha (CSV)](assets/kit-avaliacao-claro.csv). Abre no Excel, no Google Planilhas ou no LibreOffice.
 
-## Fase 02 · Teste com usuários
+## Fase 02 · Teste piloto (até 01/12)
 
-**12 participantes** executam a mesma tarefa na **versão original** e na **versão ajustada** pelo CLARO.
+**3 a 5 colegas voluntários** fazem a mesma tarefa na **versão original** de um dos serviços auditados e numa **versão ajustada** pelo CLARO (um protótipo em HTML), alternando a ordem entre as pessoas.
+
+O piloto **não pretende provar a hipótese**: com poucas pessoas e sem seleção por dificuldade, ele testa o procedimento — o roteiro, o protótipo, as métricas e o tempo de cada sessão — para que o estudo completo comece sem surpresas.
+
+- Sem nome, sem dados de saúde e sem perguntas sobre dificuldades ou diagnósticos.
+- Consentimento por escrito, num termo curto em linguagem simples.
+- Antes de começar, confirmar com o professor da disciplina se o piloto precisa passar pelo Comitê de Ética.
+
+As métricas são as mesmas do estudo completo (tabela abaixo).
+
+## Depois da disciplina: estudo completo
+
+**12 participantes** executam a mesma tarefa na **versão original** e na **versão ajustada** pelo CLARO, depois da aprovação do Comitê de Ética em Pesquisa.
 
 A seleção é feita pela **dificuldade relatada**, não por diagnóstico, com pelo menos uma pessoa para cada um dos [nove perfis](perfis/index.md). Ninguém precisa apresentar laudo. A triagem segue o modelo das perguntas do [Grupo de Washington](literatura.md#normas-politicas-e-documentos-tecnicos) — as mesmas que inspiram o Censo — com respostas de "nenhuma dificuldade" a "não consegue de jeito nenhum" (por exemplo: "Você tem dificuldade para lembrar ou se concentrar?"). Como uma pessoa costuma ter mais de uma dificuldade, os resultados também são analisados por perfil.
 
@@ -63,13 +75,13 @@ A seleção é feita pela **dificuldade relatada**, não por diagnóstico, com p
 !!! warning "Ética em pesquisa"
     Pesquisa com pessoas exige Termo de Consentimento Livre e Esclarecido em linguagem simples e, quando aplicável, aprovação do Comitê de Ética em Pesquisa da instituição. Alternar a ordem das versões entre participantes ajuda a reduzir o efeito de aprendizado.
 
-## Fase 03 · Iteração e publicação
+## Fase 03 · Iteração e entrega final (02/12 e 03/12)
 
-O que falhou no teste volta para o checklist. Depois disso, publicação da **versão 1.0** do guia, com licença aberta e exemplos de código.
+O que falhou na auditoria e no piloto volta para o checklist e para a rubrica. Depois disso, publicação da **versão 1.0** do guia, com licença aberta e exemplos de código, na entrega final de **3 de dezembro de 2026**.
 
 ## Hipótese a testar
 
 !!! abstract "Hipótese"
-    Aplicar o CLARO **reduz tempo de conclusão e abandono** para o público-alvo **sem prejudicar** quem não tem transtorno algum.
+    Aplicar o CLARO **reduz tempo de conclusão e abandono** para quem tem dificuldades cognitivas **sem prejudicar** quem não tem.
 
 É o mesmo efeito da rampa na calçada: feita para a cadeira de rodas, serve ao carrinho de bebê, à mala de viagem e a quem está com o pé machucado.

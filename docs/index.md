@@ -91,4 +91,4 @@ O público do CLARO é descrito pela **dificuldade que a pessoa encontra**, não
 3. **Meça.** Use a rubrica de 0 a 4 por princípio para ter linha de base e evolução.
 
 !!! info "Status do projeto"
-    Esta é a **versão 0.3.0**, que fecha a fase de revisão de literatura: [referências comentadas](literatura.md), três perfis novos e o [checklist](checklist.md) revisado com base na evidência. O checklist e a rubrica continuam em rascunho e serão validados na auditoria e nos testes com usuários. Veja o [roadmap](roadmap.md) e o [changelog](changelog.md).
+    Esta é a **versão 0.3.0**, que fecha a fase de revisão de literatura: [referências comentadas](literatura.md), três perfis novos e o [checklist](checklist.md) revisado com base na evidência. O checklist e a rubrica continuam em rascunho e serão validados na auditoria e no teste piloto. A versão 1.0 sai na entrega final, em **3 de dezembro de 2026** — veja o [roadmap](roadmap.md). Veja o [roadmap](roadmap.md) e o [changelog](changelog.md).

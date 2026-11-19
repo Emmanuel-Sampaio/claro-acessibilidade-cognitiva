@@ -2,6 +2,13 @@
 
 Todas as mudanças relevantes do CLARO ficam registradas aqui. O formato segue o [Keep a Changelog](https://keepachangelog.com/pt-BR/1.1.0/) e as versões seguem o [Versionamento Semântico](https://semver.org/lang/pt-BR/).
 
+## [0.3.1] — 2026-11-19
+
+### Alterado
+
+- Cronograma ajustado para a entrega final em 3 de dezembro de 2026: auditoria com dois avaliadores até 25/11, teste piloto com 3 a 5 colegas até 01/12 e versão 1.0 em 03/12.
+- O estudo completo com 12 participantes, que depende do Comitê de Ética, passa a ser trabalho futuro, depois da disciplina.
+
 ## [0.3.0] — 2026-11-19
 
 Fecha a fase de revisão de literatura: o CLARO passa a ter base bibliográfica verificada, três perfis novos e um checklist revisado com a evidência.
@@ -59,6 +66,7 @@ Primeira versão pública: a proposta do framework, publicada junto com o pitch 
 - Roadmap de 12 semanas e versões planejadas até a v1.0.0.
 - Pitch original em PDF.
 
+[0.3.1]: https://github.com/Emmanuel-Sampaio/claro-acessibilidade-cognitiva/releases/tag/v0.3.1
 [0.3.0]: https://github.com/Emmanuel-Sampaio/claro-acessibilidade-cognitiva/releases/tag/v0.3.0
 [0.2.0]: https://github.com/Emmanuel-Sampaio/claro-acessibilidade-cognitiva/releases/tag/v0.2.0
 [0.1.0]: https://github.com/Emmanuel-Sampaio/claro-acessibilidade-cognitiva/releases/tag/v0.1.0
